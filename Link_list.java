@@ -16,7 +16,7 @@ public void append_tail(int d)
 	{
 		n =n.next;
 	}
-	n.next = null;
+	n.next = l;
 	
 }
 public Link_list delete(Link_list head,int d)
